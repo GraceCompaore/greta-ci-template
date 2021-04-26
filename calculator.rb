@@ -6,6 +6,7 @@ class Result
   def initialize(error: nil, value: nil)
     @error = error
     @value = value
+    
   end
 
   def success?
